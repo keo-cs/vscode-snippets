@@ -1,0 +1,70 @@
+{
+	"Risk Summary: Unknown/unapproved files": {
+		"scope": "markdown",
+		"prefix": "risk-UnknownFiles",
+		"body": [
+			"Unknown, unapproved files have the potential to be malware."
+		],
+		"description": "Explanation of risk for unknown, unapproved files"
+	},
+	"'.bat' files": {
+		"scope": "markdown",
+		"prefix": "risk-BatchFile",
+		"body": [
+			"Batch files (`.bat`) provide the Windows command prompt with a sequential list of commands to execute ([source]()). Attackers can use batch files to deliver and execute malware payloads, communicate with C2 servers, or perform a number of other malicious actions.",
+			"",
+			"> [Command and Scripting Interpreter: **Windows Command Shell** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/003/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for batch files"
+	},
+	"User created (net/net1)": {
+		"scope": "markdown",
+		"prefix": "risk-CreatedNewUser",
+		"body": [
+			"",
+			"> [**Create Account** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1136/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being added to local group"
+	},
+	"User added to local group (net/net1)": {
+		"scope": "markdown",
+		"prefix": "risk-AddedUserToLocalGroup",
+		"body": [
+			"Unauthorized additions to a local group could be a sign of a malicious actor attempting to gain access to additional resources, potentially in preparation or execution of an attack.",
+			"",
+			"> [**Account Manipulation** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
+			"",
+			"> [**Valid Accounts** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1078/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being added to local group"
+	},
+	"User added themselves to local group (net/net1)": {
+		"scope": "markdown",
+		"prefix": "risk-AddedSelfToGroup",
+		"body": [
+			"Malicious actors adding themselves to groups could indicate an attempt to gain persistence or escalate privileges on a host or in an environment.",
+			"",
+			"> [**Account Manipulation** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user adding themselves to group"
+	},
+	"Scheduled tasks (schtasks.exe)": {
+		"scope": "markdown",
+		"prefix": "risk-ScheduledTasks",
+		"body": [
+			"",
+			"> [**Schedule Task/Job** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being added to local group"
+	},
+}

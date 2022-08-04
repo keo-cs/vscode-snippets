@@ -1,0 +1,26 @@
+{
+	"Link to ZTAP alert": {
+		"scope": "markdown",
+		"prefix": "link-ZtapAlert",
+		"body": [
+      "[#${1:alert_num}](https://portal.threatanalytics.io/#/incidents/${1:alert_num}/)"
+		],
+		"description": "Insert hyperlink to ZTAP alert",
+	},
+	"Link to ZTAP feed": {
+		"scope": "markdown",
+		"prefix": "link-ZtapFeed",
+		"body": [
+      "[#${1:feed_num}](https://portal.threatanalytics.io/#/feeds/${1:feed_num}/)"
+		],
+		"description": "Insert hyperlink to ZTAP feed",
+	},
+	"Link to ZTAP filter": {
+		"scope": "markdown",
+		"prefix": "link-ZtapFilter",
+		"body": [
+      "[#${1:feed_num}](https://portal.threatanalytics.io/#/filters/${1:feed_num}/)"
+		],
+		"description": "Insert hyperlink to ZTAP filter",
+	},
+}
