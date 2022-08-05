@@ -3,7 +3,7 @@
 		"scope": "markdown",
 		"prefix": "risk-UnknownFiles",
 		"body": [
-			"Unknown, unapproved files have the potential to be malware."
+			"Unknown, unapproved files have the potential to be malware. Lorem ipsum."
 		],
 		"description": "Explanation of risk for unknown, unapproved files"
 	},
@@ -11,9 +11,9 @@
 		"scope": "markdown",
 		"prefix": "risk-BatchFile",
 		"body": [
-			"Batch files (`.bat`) provide the Windows command prompt with a sequential list of commands to execute ([source]()). Attackers can use batch files to deliver and execute malware payloads, communicate with C2 servers, or perform a number of other malicious actions.",
+			"Batch files (`.bat`) provide the Windows command prompt with a sequential list of commands to execute. Attackers can use batch files to deliver and execute malware payloads, communicate with C2 servers, or perform a number of other malicious actions.",
 			"",
-			"> [Command and Scripting Interpreter: **Windows Command Shell** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/003/)",
+			"> [**Windows Command Shell** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/003/)",
 			"",
       "$0"
 		],
@@ -23,6 +23,8 @@
 		"scope": "markdown",
 		"prefix": "risk-CreatedNewUser",
 		"body": [
+			"Lorem.",
+			"",
 			"",
 			"> [**Create Account** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1136/)",
 			"",
@@ -60,6 +62,7 @@
 		"scope": "markdown",
 		"prefix": "risk-ScheduledTasks",
 		"body": [
+			"Ipsum.",
 			"",
 			"> [**Schedule Task/Job** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/)",
 			"",

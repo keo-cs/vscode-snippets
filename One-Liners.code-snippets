@@ -19,7 +19,7 @@
 		"scope": "markdown",
 		"prefix": "link-ZtapFilter",
 		"body": [
-      "[#${1:feed_num}](https://portal.threatanalytics.io/#/filters/${1:feed_num}/)"
+      "[#${1:filter_num}](https://portal.threatanalytics.io/#/filters/${1:filter_num}/)"
 		],
 		"description": "Insert hyperlink to ZTAP filter",
 	},

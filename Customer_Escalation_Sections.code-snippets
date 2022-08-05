@@ -1,5 +1,5 @@
 {
-	"Priority heading": {
+	"Priority assessment": {
 		"scope": "markdown",
 		"prefix": "priority",
 		"body": [
@@ -9,58 +9,62 @@
 			"",
 			"$0"
 		],
-		"description": "Priority heading for customer escalation"
+		"description": "Priority assement for customer escalation"
 	},
-"Observations": {
+"Observation": {
 		"scope": "markdown",
 		"prefix": "observe",
 		"body": [
 			"#### What was Observed",
 			"",
 			"$1",
+			"",
 			"* * *",
 			"",
 			"$0"
 		],
 		"description": "'What was Observed' section"
 	},
-	"Risks": {
+	"Risk": {
 		"scope": "markdown",
 		"prefix": "risk",
 		"body": [
 			"#### What is the Risk",
 			"",
 			"$1",
+			"",
 			"* * *",
 			"",
 			"$0"
 		],
 		"description": "'What is the Risk' section"
 	},
-	"Recommendations": {
+	"Recommendation": {
 		"scope": "markdown",
 		"prefix": "recommend",
 		"body": [
 			"#### What is Recommended",
 			"",
 			"$1",
+			"",
 			"* * *",
 			"",
 			"$0"
 		],
 		"description": "'What is Recommended' section"
 	},
-	"Actions taken": {
+	"Action taken": {
 		"scope": "markdown",
 		"prefix": "action",
 		"body": [
-			"#### Actions taken",
+			"#### Action taken",
 			"",
 			"$1",
+			"",
 			"* * *",
 			"",
 			"$0"
 		],
-		"description": "'Actions taken' section"
+		"description": "'Action taken' section"
 	},
 }
