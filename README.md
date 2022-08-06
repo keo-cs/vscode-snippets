@@ -47,4 +47,4 @@
 
 * Option 2: Download repository source
   * [Download repo source archive from GitHub](https://github.com/kevinolson-cs/vscode-snippets/archive/refs/heads/main.zip)
-  * Extract all `.code-snippets` files to `%AppData%\Code\User\snippets\`
+  * Extract all `.code-snippets` files to `C:\Users\<username>\AppData\Roaming\Code\User\snippets`
