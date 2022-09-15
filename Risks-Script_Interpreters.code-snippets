@@ -1,0 +1,38 @@
+{
+	"Risk: Script Interpreter: batch/.bat": {
+		"scope": "markdown",
+		"prefix": "risk-script-batch-bat",
+		"body": [
+			"Batch files (`.bat`) provide the Windows command prompt with a sequential list of commands to execute. Attackers can use batch files to deliver and execute malware payloads, communicate with C2 servers, or perform a number of other malicious actions.",
+			"",
+			"> [Windows Command Shell | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/003/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for batch files"
+	},
+	"Risk: Script Interpreter: VisualBasic/.vbs": {
+		"scope": "markdown",
+		"prefix": "risk-script-visualbasic-vbs",
+		"body": [
+			"The file extension `.vbs` indicates this is a *Visual Basic* script. Adversaries occasionality rely on scripting interpreters like *VBS* to perform complicated or repetitive sequential operations.",
+			"",
+			"> [Command and Scripting Interpreter: Visual Basic | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/005/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for VBS scripts"
+	},
+	"Risk: Script Interpreter: PowerShell/ps1": {
+		"scope": "markdown",
+		"prefix": "risk-script-powershell-ps1",
+		"body": [
+			"PowerShell scripts can be leveraged by adversaries as to perform complicated or repetitive sequential operations. Without visibility into the content of this script, its intended function cannot be verified.",
+			"",
+			"> [PowerShell | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/001/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for VBS scripts"
+	},
+}

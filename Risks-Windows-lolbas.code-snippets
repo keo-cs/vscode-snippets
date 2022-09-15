@@ -1,0 +1,14 @@
+{
+	"Risk: Windows: LOLBAS: `WmiPrvSe.exe`": {
+		"scope": "markdown",
+		"prefix": "risk-win-lolbas-wmiprvse-exe",
+		"body": [
+			"`WmiPrvSe.exe` is a legitimate Windows system executable that can be used to proxy the execution of malicious code.",
+			"",
+			"> [Windows Command Shell | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1059/003/)",
+			"",
+      "$0"
+		],
+		"description": "Event Triggered Execution: Windows Management Instrumentation Event Subscription"
+	},
+}

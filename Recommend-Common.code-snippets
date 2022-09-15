@@ -1,0 +1,33 @@
+{
+	"Recommendation: Best Practices - Phishing": {
+		"scope": "markdown",
+		"prefix": "recommend-bestpractice_phishing",
+		"body": [
+			"It may be prudent for this user to refresh their [*cybersecurity best practices*](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scamss) in order to better identify potential phishing attempts.",
+      "$0",
+		],
+		"description": "Refresh cybersec basics (w/ link to article by FTC.gov)"
+	},
+	"Recommendation: Reset and revert account": {
+		"scope": "markdown",
+		"prefix": "recommend-account_resetrevert",
+		"body": [
+			"If this behavior is `unauthorized` or `unexpected`, the changes should be reverted as soon as possible, and the initiating user account should be immediately locked and investigated for additional unauthorized activity.",
+			"",
+      "$0",
+		],
+		"description": "Reset and revert the account"
+	},
+	"Recommendation: net.exe cleartext/interactive password": {
+		"scope": "markdown",
+		"prefix": "recommend-net_user_password",
+		"body": [
+			"We advise using the asterisk (`*`) command line option when relying on `net.exe` to create user accounts. This option will prompt for password creation, preventing the cleartext password from being exposed in logs.",
+			"",
+			"[`net.exe` Command Line Options | *Microsoft Docs*](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc771865(v=ws.11))",
+			"",
+      "$0",
+		],
+		"description": "Suggest alternative command line when net.exe is being invoked with a cleartext password"
+	},
+}

@@ -1,0 +1,26 @@
+{
+	"Risk: Masquarading: Unsigned executable with apparently legitimate metadata": {
+		"scope": "markdown",
+		"prefix": "risk-masquarade-unsigned_executable",
+		"body": [
+			"Attackers can attempt to bypass signature verification controls by copying legitimate product metadata and using it as a template to apply metadata to malware executables. This will make the executable appear legitimate by presenting genuine product, vendor, and version information; however, the malware will remain *unsigned* regardless of the metadata.",
+			"",
+			"> [Masquerading: Invalid Code Signature | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1036/001/)",
+			"",
+      "$0"
+		],
+		"description": "Masquarading by copying legitimate software metadata onto unsigned malware"
+	},
+	"Risk: Masquarading: Fake login page": {
+		"scope": "markdown",
+		"prefix": "risk-masquarade-url-phishing",
+		"body": [
+			"Adversaries use phishing messages to gain access to victim systems. Malicious websites designed specifically to impersonate legitimate authentication systems, such as Microsoft or Google, disguise themselves to trick users into submitting their credentials.",
+			"",
+			"Successfully obtaining legitimate credentials can provide an attacker with persistence, or potentially grant them access to confidential company information or critical resources that the the compromised user has access to.",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for targeted masquarading phishing links"
+	},
+}

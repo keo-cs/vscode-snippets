@@ -1,0 +1,111 @@
+{
+	"Risk Summary: Unknown/unapproved files": {
+		"scope": "markdown",
+		"prefix": "risk-unknown_files",
+		"body": [
+			"Unknown, unapproved files have the potential to be malware. The information gathered by the console in this detection offers few clues; however, the nature of the detected threat family warrants investigation despite the absence of obvious malicious code.",
+      "$0",
+		],
+		"description": "Explanation of risk for unknown, unapproved files"
+	},
+	"Risk Summary: User created": {
+		"scope": "markdown",
+		"prefix": "risk-local_user-create_new",
+		"body": [
+			"Lorem.",
+			"",
+			"> [Create Account** | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1136/)",
+			"> * [Local account](https://attack.mitre.org/techniques/T1136/001/)",
+			"> * [Domain account](https://attack.mitre.org/techniques/T1136/002/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being created"
+	},
+	"Risk Summary: User added to local group": {
+		"scope": "markdown",
+		"prefix": "risk-local_group-add_member",
+		"body": [
+			"Unauthorized modification of local group memberships could indicate a malicious actor attempting to establish persistence.",
+			"",
+			"> [Account Manipulation | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being added to local group"
+	},
+	"Risk Summary: User added themselves to local group": {
+		"scope": "markdown",
+		"prefix": "risk-local_group-add_self",
+		"body": [
+			"Malicious actors adding themselves to groups could indicate an attempt to gain persistence on a compromised host or environment.",
+			"",
+			"> [Account Manipulation | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user adding themselves to group"
+	},
+	"Risk Summary: Scheduled tasks - Generic": {
+		"scope": "markdown",
+		"prefix": "risk-scheduled_tasks",
+		"body": [
+			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code.",
+			"",
+			"> [Schedule Task/Job | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for scheduled tasks (Windows)"
+	},
+	"Scheduled tasks - Windows": {
+		"scope": "markdown",
+		"prefix": "risk-win-scheduled_tasks-schtasks",
+		"body": [
+			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code. Nearly all operating systems include task scheduling functionality in some regard; in Windows environments it is the Task Scheduler, or `schtasks.exe`.",
+			"",
+			"> [Schedule Task/Job | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/005/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for scheduled tasks (Windows)"
+	},
+  "Forced Root Certificate Install": {
+    "scope": "markdown",
+    "prefix": "threat-rootcert",
+    "body": [
+      "Attackers can subvert the certificate chain of trust by installing a custom root certificate on an infected system, granting them the ability to downgrade encryption or inspect secure traffic without the user's knowledge.",
+      "",
+      "> [Install Root Certificate | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1553/004/)",
+      "",
+      "#####",
+      "",
+      "> [Man-in-the-Middle Attack | *NIST.gov*](https://csrc.nist.gov/glossary/term/man_in_the_middle_attack)",
+      "",
+      "$0"
+    ],
+    "description": "Threat family: Trojan Downloader"
+  },
+  "Authentication attempt from bad IP address": {
+    "scope": "markdown",
+    "prefix": "risk-auth-fail-bad_ip",
+    "body": [
+      "Authentication attempts from unfamiliar locations or IP addresses may indicate that an adversary is attempting to gain access to the targeted account.",
+      "",
+      "$0"
+    ],
+    "description": "Potentially illegitimate login activity due to the IP address identified in the authentication attempt(s)"
+  },
+  "Unauthorized remote desktop support applications": {
+    "scope": "markdown",
+    "prefix": "risk-auth-fail-bad_ip",
+    "body": [
+      "Remote desktop (or remote *support*) applications can be leveraged by attackers to trick users into granting complete system control under the pretenses of genuine 1st-party technical support.",
+      "",
+      "> [Remote Services | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1021/)",
+      "",
+      "$0"
+    ],
+    "description": "Potentially illegitimate login activity due to the IP address identified in the authentication attempt(s)"
+  },
+}

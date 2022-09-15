@@ -1,0 +1,28 @@
+{
+	"Recommendation: Orchestrate: Approved administrator activity": {
+		"scope": "markdown",
+		"prefix": "recommend-orchestrate-admin_user",
+		"body": [
+			"If this behavior is `authorized`, please advise if you would like to suppress future alerts for this activity by user `{{ Username }}`:",
+			"",
+			"* An orchestration `filter` can be created to prevent false-positive alerting for authorized behavior.",
+			"* Alternatively, an auto-route `playbook` can be created in order to maintain visibility.",
+			"",
+      "$0",
+		],
+		"description": "Suggest creating orchestration for administrator actions"
+	},
+	"Recommendation: Orchestrate: Legitimate software": {
+		"scope": "markdown",
+		"prefix": "recommend-orchestrate-legit_software",
+		"body": [
+			"Please advise if the use of *${1:software_name}* is `authorized` in your organization:",
+			"",
+			"* An orchestration *filter* can be created to suppress alert notifications for benign behaviors of genuine software.",
+			"* Alternatively, an auto-route *playbook* can be *created* in order to preserve visibility.",
+			"",
+      "$0",
+		],
+		"description": "Suggest creating orchestration for specific software"
+	},
+}

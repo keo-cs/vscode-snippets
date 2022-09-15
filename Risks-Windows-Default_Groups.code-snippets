@@ -1,0 +1,14 @@
+{
+	"Risk: Windows Group:": {
+		"scope": "markdown",
+		"prefix": "risk-win-default_group-performance_monitor_users",
+		"body": [
+			"The built-in Windows local group *Performance Monitor Users* grants read-only access to local and remote monitoring of performance counters, resource metrics, and system logs.",
+			"",
+			"> [Performance Monitors Users | *Microsoft Docs*](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups#performance-monitor-users)",
+			"",
+      "$0",
+		],
+		"description": "Explanation of risk for windows default user account "
+	},
+}
