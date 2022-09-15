@@ -45,10 +45,10 @@ Each snippet is defined under a snippet name and contains the following fields:
 #### Windows
 
 * Option 1 (**Recommended**): Clone this repo
-  * `git clone https://github.com/kevinolson-cs/vscode-snippets C:\Users\<username>\AppData\Roaming\Code\User\snippets`
+  * `git clone https://github.com/keo-cs/vscode-snippets C:\Users\<username>\AppData\Roaming\Code\User\snippets`
 
 * Option 2: Download repository source
-  * [Download repo source archive from GitHub](https://github.com/kevinolson-cs/vscode-snippets/archive/refs/heads/main.zip)
+  * [Download repo source archive from GitHub](https://github.com/keo-cs/vscode-snippets/archive/refs/heads/main.zip)
   * Extract all `.code-snippets` files to `C:\Users\<username>\AppData\Roaming\Code\User\snippets`
 
 * * *
