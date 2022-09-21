@@ -58,21 +58,9 @@
 		],
 		"description": "Explanation of risk for scheduled tasks (Windows)"
 	},
-	"Scheduled tasks - Windows": {
-		"scope": "markdown",
-		"prefix": "risk-win-scheduled_tasks-schtasks",
-		"body": [
-			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code. Nearly all operating systems include task scheduling functionality in some regard; in Windows environments it is the Task Scheduler, or `schtasks.exe`.",
-			"",
-			"> [Schedule Task/Job | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/005/)",
-			"",
-      "$0"
-		],
-		"description": "Explanation of risk for scheduled tasks (Windows)"
-	},
   "Forced Root Certificate Install": {
     "scope": "markdown",
-    "prefix": "threat-rootcert",
+    "prefix": "risk-root_cert",
     "body": [
       "Attackers can subvert the certificate chain of trust by installing a custom root certificate on an infected system, granting them the ability to downgrade encryption or inspect secure traffic without the user's knowledge.",
       "",
@@ -84,7 +72,7 @@
       "",
       "$0"
     ],
-    "description": "Threat family: Trojan Downloader"
+    "description": ""
   },
   "Authentication attempt from bad IP address": {
     "scope": "markdown",
