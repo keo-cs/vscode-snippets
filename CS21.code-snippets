@@ -1,7 +1,7 @@
 {
 	"CS21 - Potential forced root cert installation (detected)": {
 		"scope": "markdown",
-		"prefix": "cs21-detect",
+		"prefix": "cs21-wireshark_pcap-detect",
 		"body": [
 			"### Medium Priority",
       "",
