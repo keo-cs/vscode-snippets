@@ -17,7 +17,7 @@
 		"body": [
 			"`certutil.exe` is the built-in Windows executable used to interact with certificates and *Certificate Services*. It is used by attackers due to its *dual-use* functionality, which can be leveraged to *download files* (including to [*alternate data streams*](https://www.sans.org/blog/alternate-data-streams-overview/) or to encode and decode base64- and hexadecimal-encoded files.",
 			"",
-			"> [`certutil.exe` | *LOLBAS - Living off the Land*](https://lolbas-project.github.io/lolbas/Binaries/Certutil/)",
+			"> [`certutil.exe` | ***LOLBAS** - Living off the Land*](https://lolbas-project.github.io/lolbas/Binaries/Certutil/)",
 			"",
       "$0"
 		],
