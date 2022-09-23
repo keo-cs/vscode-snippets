@@ -86,7 +86,7 @@
   },
   "Unauthorized remote desktop support applications": {
     "scope": "markdown",
-    "prefix": "risk-auth-fail-bad_ip",
+    "prefix": "risk-remotedesktop-pua-pup",
     "body": [
       "Remote desktop (or remote *support*) applications can be leveraged by attackers to trick users into granting complete system control under the pretenses of genuine 1st-party technical support.",
       "",
