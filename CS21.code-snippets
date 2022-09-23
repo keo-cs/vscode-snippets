@@ -21,7 +21,7 @@
       "",
       "Packet capture software can be used to intercept network traffic, potentially exposing account credentials, sensitive files, or network topology.",
       "",
-      "> [Netowrk Sniffing | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1040/)",
+      "> [Network Sniffing | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1040/)",
       "",
       "* * *",
       "",
