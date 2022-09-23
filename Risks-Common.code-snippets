@@ -108,4 +108,16 @@
     ],
     "description": "Potentially illegitimate login activity due to the IP address identified in the authentication attempt(s)"
   },
+  "Compromise of sensitive browser data": {
+    "scope": "markdown",
+    "prefix": "risk-hijack-browser-session",
+    "body": [
+      "Compromise of sensitive browser data can enable an malicious hijacking of account sessions for any website visited by users of the affected endpoint. If leveraged by an attacker, this information can quickly lead to exposure of confidential company information (finances, correspondence), but can also lead to the compromise of sensitive personal data (banking information, social media).",
+      "",
+      "> [Browser Session Hijacking | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1185/)",
+      "",
+      "$0"
+    ],
+    "description": ""
+  },
 }
