@@ -11,4 +11,14 @@
 		],
 		"description": "Event Triggered Execution: Windows Management Instrumentation Event Subscription"
 	},
+  "Sysinternals": {
+    "scope": "markdown",
+    "prefix": "risk-win-sysinternals",
+    "body": [
+      "[*${1:tool_name}*](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) is a component of Microsoft [*Sysinternals*](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), a collection of Windows troubleshooting utilities. While these tools are distributed by Microsoft for diagnostic use, the dual-use functionality is often leveraged by attackers.",
+      "",
+      "$0"
+    ],
+    "description": ""
+  },
 }
