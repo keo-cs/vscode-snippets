@@ -1,0 +1,28 @@
+{
+	"Risk: Windows System Binary: certutil.exe": {
+		"scope": "markdown",
+		"prefix": "risk-win-certutil",
+		"body": [
+			"`certutil.exe` is a built-in Windows executable used to interact with certificates and *Certificate Services*. Its primary functionality includes the capability to enumerate and modify sensitive information regarding the *chain of trust*, and is most commonly used to add or remove trusted certificates.",
+			"",
+			"> [`certutil` | *MITRE ATT&CK*](https://attack.mitre.org/software/S0160/)",
+      "",
+      "> [Subvert Trust Controls | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1553/)",
+			"",
+      "$0"
+		],
+		"description": ""
+	},
+	"Risk: Windows System Binary: schtasks.exe": {
+		"scope": "markdown",
+		"prefix": "risk-win-scheduled_tasks-schtasks",
+		"body": [
+			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code. Nearly all operating systems include task scheduling functionality in some regard; in Windows environments it is the Task Scheduler, or `schtasks.exe`.",
+			"",
+			"> [Schedule Task/Job | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/005/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for scheduled tasks (Windows)"
+	},
+}

@@ -1,7 +1,7 @@
 {
 	"CS33 - CS33 - Command Prompt launching HTML Application (MSHTA.exe) (detected)": {
 		"scope": "markdown",
-		"prefix": "cs33-detect",
+		"prefix": "cs33-mshta-detect",
 		"body": [
 			"### Medium Priority",
       "",

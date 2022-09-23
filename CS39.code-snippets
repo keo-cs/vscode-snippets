@@ -1,7 +1,7 @@
 {
 	"CS39 - Hidden powershell (detected)": {
 		"scope": "markdown",
-		"prefix": "cs39_HiddenPowershell-detect",
+		"prefix": "cs39-hidden_powershell-detect",
 		"body": [
 			"### Low Priority",
       "",

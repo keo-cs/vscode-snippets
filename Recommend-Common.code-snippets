@@ -1,7 +1,7 @@
 {
 	"Recommendation: Best Practices - Phishing": {
 		"scope": "markdown",
-		"prefix": "recommend-bestpractice_phishing",
+		"prefix": "recommend-bestpractice-phishing",
 		"body": [
 			"It may be prudent for this user to refresh their [*cybersecurity best practices*](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scamss) in order to better identify potential phishing attempts.",
       "$0",
@@ -10,7 +10,7 @@
 	},
 	"Recommendation: Reset and revert account": {
 		"scope": "markdown",
-		"prefix": "recommend-account_resetrevert",
+		"prefix": "recommend-account-resetrevert",
 		"body": [
 			"If this behavior is `unauthorized` or `unexpected`, the changes should be reverted as soon as possible, and the initiating user account should be immediately locked and investigated for additional unauthorized activity.",
 			"",
@@ -20,7 +20,7 @@
 	},
 	"Recommendation: net.exe cleartext/interactive password": {
 		"scope": "markdown",
-		"prefix": "recommend-net_user_password",
+		"prefix": "recommend-net_user-cleartext_password",
 		"body": [
 			"We advise using the asterisk (`*`) command line option when relying on `net.exe` to create user accounts. This option will prompt for password creation, preventing the cleartext password from being exposed in logs.",
 			"",
