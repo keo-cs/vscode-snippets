@@ -57,7 +57,7 @@
 		"scope": "markdown",
 		"prefix": "action",
 		"body": [
-			"#### Action taken",
+			"#### Action Taken",
 			"",
 			"$1",
 			"",
