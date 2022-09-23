@@ -26,7 +26,7 @@
 		"scope": "markdown",
 		"prefix": "risk-local_group-add_member",
 		"body": [
-			"Unauthorized modification of local group memberships could indicate a malicious actor attempting to establish persistence.",
+			"Unauthorized modification of local group memberships could indicate a malicious actor attempting to establish persistence, pivot into critical resources, or subvert security controls.",
 			"",
 			"> [Account Manipulation | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
 			"",
@@ -36,7 +36,7 @@
 	},
 	"Risk Summary: User added themselves to local group": {
 		"scope": "markdown",
-		"prefix": "risk-local_group-add_self",
+		"prefix": "risk-group-add_self",
 		"body": [
 			"Malicious actors adding themselves to groups could indicate an attempt to gain persistence on a compromised host or environment.",
 			"",
@@ -66,7 +66,7 @@
       "",
       "> [Install Root Certificate | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1553/004/)",
       "",
-      "#####",
+      "<!-- -->",
       "",
       "> [Man-in-the-Middle Attack | *NIST.gov*](https://csrc.nist.gov/glossary/term/man_in_the_middle_attack)",
       "",
