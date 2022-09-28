@@ -23,4 +23,12 @@
 		],
 		"description": "Insert hyperlink to ZTAP filter",
 	},
+	"RFC1918": {
+		"scope": "markdown",
+		"prefix": "rfc1918",
+		"body": [
+      "(*[RFC1918](https://datatracker.ietf.org/doc/html/rfc1918) private address*)"
+		],
+		"description": "RFC1918: Address Allocation for Private Internets",
+	},
 }
