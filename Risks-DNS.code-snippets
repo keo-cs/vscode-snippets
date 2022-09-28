@@ -1,0 +1,15 @@
+{
+	"Zone Transfer Enumeration": {
+		"scope": "markdown",
+		"prefix": "risk-dns-zone_transfer-axfr",
+		"body": [
+			"*Authoritative Transfer* *(AXFR)* requests are used by DNS servers to request records for an entire zone ([source](https://datatracker.ietf.org/doc/html/rfc1035)). This functionality can be leveraged by adversaries to enumerate DNS records. In an *Active Directory* environment, enumeration of this nature can provide an attacker with a list of every computer joined to the domain.",
+      "",
+      "> [DNS Zone Transfer Vulnerability | *Beagle Security*](https://beaglesecurity.com/blog/vulnerability/dns-zone-transfer.html)",
+      "",
+      "$0",
+		],
+		"description": ""
+	},
+}
+
