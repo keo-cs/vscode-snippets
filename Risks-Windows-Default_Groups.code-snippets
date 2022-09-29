@@ -11,4 +11,20 @@
 		],
 		"description": "Explanation of risk for windows default user account "
 	},
+	"snippetName": {
+		"scope": "jsonc",
+		"prefix": "risk-win-default_group-iis_wpg",
+		"body": [
+			"The Windows group `IIS_WPG` is installed by default with *Windows IIS* (the web server component of *Windows Server*), and its members are granted permissions to system resources used by the *IIS* service.",
+			"",
+			"> [Built-In User and Group Accounts in IIS 7 | *Microsoft Docs*](https://learn.microsoft.com/en-us/iis/get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis)",
+			"",
+			"<!-- -->",
+			"",
+			"> [Default Permissions and User Rights for IIS 7.0 and Later | *Microsoft Docs*](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/iis/www-authentication-authorization/default-permissions-user-rights)",
+			"",
+			"$0",
+		],
+		"description": "Default permissions for group IIS_WPG"
+	}
 }
