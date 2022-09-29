@@ -1,5 +1,5 @@
 {
-	"Risk: Windows Group:": {
+	"Risk: Windows Group: Performance Monitor Users": {
 		"scope": "markdown",
 		"prefix": "risk-win-default_group-performance_monitor_users",
 		"body": [
@@ -9,10 +9,10 @@
 			"",
       "$0",
 		],
-		"description": "Explanation of risk for windows default user account "
+		"description": ""
 	},
-	"snippetName": {
-		"scope": "jsonc",
+	"Risk: Windows Group: IIS_WPG": {
+		"scope": "markdown",
 		"prefix": "risk-win-default_group-iis_wpg",
 		"body": [
 			"The Windows group `IIS_WPG` is installed by default with *Windows IIS* (the web server component of *Windows Server*), and its members are granted permissions to system resources used by the *IIS* service.",
@@ -25,6 +25,22 @@
 			"",
 			"$0",
 		],
-		"description": "Default permissions for group IIS_WPG"
-	}
+		"description": ""
+	},
+	"Risk: Windows Group: Remote Desktop Users": {
+		"scope": "markdown",
+		"prefix": "risk-win-default_group-remote_desktop_users",
+		"body": [
+			"The built-in Windows local group *Remote Desktop Users* grants permission to sign-in remotely to the host with *Remote Desktop* services enabled.",
+			"",
+			"> [Allow Log-on Through Remote Desktop Service | *Microsoft Docs*](https://learn.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/allow-log-on-through-remote-desktop-services)",
+			"",
+			"<!-- -->",
+			"",
+			"> [Default Security Groups: Remote Desktop Users | *Microsoft Docs*](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups#remote-desktop-users)",
+			"",
+      "$0",
+		],
+		"description": ""
+	},
 }
