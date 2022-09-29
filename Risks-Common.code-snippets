@@ -132,4 +132,16 @@
     ],
     "description": "SQLi tautology risk"
   },
+  "Lateral Movement": {
+    "scope": "markdown",
+    "prefix": "risk-lateral_movement",
+    "body": [
+      "*Lateral movement* refers to an attacker pivoting from one host in an environment to another.",
+      "",
+      "> [Lateral Movement | *MITRE ATT&CK*](https://attack.mitre.org/tactics/TA0008/)",
+      "",
+      "$0"
+    ],
+    "description": ""
+  },
 }
