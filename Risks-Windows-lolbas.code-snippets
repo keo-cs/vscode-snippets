@@ -21,4 +21,16 @@
     ],
     "description": ""
   },
+  "PsExec": {
+    "scope": "markdown",
+    "prefix": "risk-psexec",
+    "body": [
+      "`PsExec` can be used to remotely access hosts and execute arbitrary commands. Its portability and functionality have contributed it to becoming a popular tool for administrators and adversaries alike.",
+      "",
+      "> [What is PsExec? | *RedCanary*](https://redcanary.com/blog/threat-hunting-psexec-lateral-movement/)",
+      "",
+      "$0"
+    ],
+    "description": ""
+  }
 }
