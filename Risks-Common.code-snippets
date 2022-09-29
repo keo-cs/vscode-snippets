@@ -108,4 +108,28 @@
     ],
     "description": ""
   },
+  "SQL injection: Generic": {
+    "scope": "markdown",
+    "prefix": "risk-sql_injection-sqli",
+    "body": [
+      "`SQL injection` describes input of specific values with the intention of leveraging the database in ways that were not intended, often to access confidential information or gain access to authenticated systems.",
+      "",
+      "> [Exploit Public-Facing Application | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1190/)",
+      "",
+      "$0"
+    ],
+    "description": "Generic SQLi risk"
+  },
+  "SQL injection: Tautology": {
+    "scope": "markdown",
+    "prefix": "risk-sql_injection-tautology",
+    "body": [
+      "`SQL tautology` specifically refers to the use of *\"always true\"* statements (e.g. 1=1) to maliciously query the database.",
+      "",
+      "> [Types of SQL Injection | *GrayCampus*](https://www.greycampus.com/opencampus/ethical-hacking/types-of-sql-injection)",
+      "",
+      "$0"
+    ],
+    "description": "SQLi tautology risk"
+  },
 }

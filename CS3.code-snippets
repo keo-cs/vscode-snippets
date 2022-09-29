@@ -1,7 +1,7 @@
 {
-	"CS3 - Local group": {
+	"CS3 - Admin group": {
 		"scope": "markdown",
-		"prefix": "cs3-detect",
+		"prefix": "cs3-detect-admin",
 		"body": [
 			"### Medium Priority",
       "",
@@ -28,11 +28,13 @@
       "",
       "#### What is Recommended",
       "",
-      "If this behavior is `authorized` for the user `${2:init_user}` in this context, a filter should be created to suppress future alerts of this nature.",
+      "If this is `unauthorized`, the account `${3:tgt_user}` should be removed from group `${4:tgt_group}`.",
       "",
-      "If `unauthorized`, the account `${3:tgt_user}` should be removed from group `${4:tgt_group}`. Additionally, the initiating user account `${3:tgt_user}`) should be disabled, its password reset, and its activity investigated for additional unauthorized changed.",
+      "* The initiating user account `${2:init_user}` should be also disabled, its password reset, and its activity audited for additional unauthorized activity.",
       "",
-      "If this behavior is `authorized` in this context, an orchestration filter can be created to suppress future alerts for approved activity.",
+      "If this behavior is `authorized` for the user `${2:init_user}` in this context, a *filter* can be created to suppress future alerts of this nature.",
+      "",
+      "* Alternatively, an auto-route *playbook* can be created to preserve visibility.",
       "",
       "* * *",
       "",
@@ -41,9 +43,9 @@
 		],
 		"description": "Detection: attempt to add user(s) to a local group"
 	},
-	"CS3 - Admin group": {
+	"CS3 - Local group": {
 		"scope": "markdown",
-		"prefix": "cs3-detect",
+		"prefix": "cs3-detect-local",
 		"body": [
 			"### Medium Priority",
       "",
@@ -65,9 +67,13 @@
       "",
       "#### What is Recommended",
       "",
-      "If this behavior is `authorized` for the user `${2:init_user}` in this context, a filter should be created to suppress future alerts of this nature.",
+      "If this is `unauthorized`, the account `${3:tgt_user}` should be removed from group `${4:tgt_group}`.",
       "",
-      "If `unauthorized`, the account `${3:tgt_user}` should be removed from group `${4:tgt_group}` and the initiating user account `${2:init_user}` should be disabled, password reset, and investigated for additional unauthorized changed.",
+      "* The initiating user account `${2:init_user}` should be also disabled, its password reset, and its activity audited for additional unauthorized activity.",
+      "",
+      "If this behavior is `authorized` for the user `${2:init_user}` in this context, a *filter* can be created to suppress future alerts of this nature.",
+      "",
+      "* Alternatively, an auto-route *playbook* can be created to preserve visibility.",
       "",
       "* * *",
       "",
