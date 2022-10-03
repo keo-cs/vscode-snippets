@@ -43,4 +43,18 @@
 		],
 		"description": ""
 	},
+	"Risk: Windows Group: Administrators": {
+		"scope": "markdown",
+		"prefix": "risk-win-default_group-admins",
+		"body": [
+			"The default Windows group \"Administrators\" is a **privileged** group and grants `Full Control` permissions to the entire system.",
+			"",
+			"> *It's a best practice to limit the number of users in the Administrators group because members of the Administrators group on a local server have Full Control permissions on that computer.*",
+			"",
+			"— via [Microsoft documentation](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/local-accounts#sec-administrator)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being added to local group"
+	},
 }
