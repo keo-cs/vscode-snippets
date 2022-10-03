@@ -3,7 +3,7 @@
 		"scope": "markdown",
 		"prefix": "risk-unknown_files",
 		"body": [
-			"Unknown, unapproved files have the potential to be malware. The information gathered by the console in this detection offers few clues; however, the nature of the detected threat family warrants investigation despite the absence of obvious malicious code.",
+			"Unfamiliar, unsigned files have the potential to be malware. Despite the presence of circumstantial information that may positively identify this file, its origin cannot be verified in the absence historical NGAV data and file signature, and the console's detection alone warrants mitigation action.",
       "$0",
 		],
 		"description": "Explanation of risk for unknown, unapproved files"
