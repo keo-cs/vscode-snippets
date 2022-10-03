@@ -1,0 +1,20 @@
+{
+	"Recommendation: Best Practices - Phishing": {
+		"scope": "markdown",
+		"prefix": "recommend-bestpractice-phishing",
+		"body": [
+			"It may be prudent for this user to refresh their [*cybersecurity best practices*](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scamss) in order to better identify potential phishing attempts.",
+      "$0",
+		],
+		"description": "Refresh cybersec basics (w/ link to article by FTC.gov)"
+	},
+	"Recommendation: Best Practices - Download Software": {
+		"scope": "markdown",
+		"prefix": "recommend-bestpractice-downloads",
+		"body": [
+			"It may be prudent for this user to refresh their [cybersecurity best practices](https://its.ucsc.edu/security/download.html) to reduce the risk of malware infection.",
+      "$0",
+		],
+		"description": "Refresh cybersec basics (w/ link to article)"
+	},
+}
