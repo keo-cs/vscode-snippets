@@ -1,7 +1,7 @@
 {
 	"Risk: Script Interpreter: batch/.bat": {
 		"scope": "markdown",
-		"prefix": "risk-script-batch-bat",
+		"prefix": "risk-script-bat-batch",
 		"body": [
 			"Batch files (`.bat`) provide the Windows command prompt with a sequential list of commands to execute. Attackers can use batch files to deliver and execute malware payloads, communicate with C2 servers, or perform a number of other malicious actions.",
 			"",
@@ -9,11 +9,11 @@
 			"",
       "$0"
 		],
-		"description": "Explanation of risk for batch files"
+		"description": "Batch files"
 	},
 	"Risk: Script Interpreter: VisualBasic/.vbs": {
 		"scope": "markdown",
-		"prefix": "risk-script-visualbasic-vbs",
+		"prefix": "risk-script-vbs-visualbasic",
 		"body": [
 			"The file extension `.vbs` indicates this is a *Visual Basic* script. Adversaries occasionality rely on scripting interpreters like *VBS* to perform complicated or repetitive sequential operations.",
 			"",
@@ -21,11 +21,11 @@
 			"",
       "$0"
 		],
-		"description": "Explanation of risk for VBS scripts"
+		"description": "VBS scripts"
 	},
-	"Risk: Script Interpreter: PowerShell/ps1": {
+	"Risk: Script Interpreter: PowerShell/.ps1": {
 		"scope": "markdown",
-		"prefix": "risk-script-powershell-ps1",
+		"prefix": "risk-script-ps1-powershell",
 		"body": [
 			"PowerShell scripts can be leveraged by adversaries as to perform complicated or repetitive sequential operations. Without visibility into the content of this script, its intended function cannot be verified.",
 			"",
@@ -33,6 +33,6 @@
 			"",
       "$0"
 		],
-		"description": "Explanation of risk for VBS scripts"
+		"description": "PowerShell scripts"
 	},
 }

@@ -1,0 +1,38 @@
+{
+	"Risk Summary: User created": {
+		"scope": "markdown",
+		"prefix": "risk-user-local-create",
+		"body": [
+			"Lorem.",
+			"",
+			"> [Create Account: Local Account](https://attack.mitre.org/techniques/T1136/001/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being created"
+	},
+	"Risk Summary: User added to local group": {
+		"scope": "markdown",
+		"prefix": "risk-group-local-add_member",
+		"body": [
+			"Unauthorized modification of local group memberships could indicate a malicious actor attempting to establish persistence, pivot into critical resources, or subvert security controls.",
+			"",
+			"> [Account Manipulation | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user(s) being added to local group"
+	},
+	"Risk Summary: User added themselves to local group": {
+		"scope": "markdown",
+		"prefix": "risk-group-add_self",
+		"body": [
+			"Malicious actors adding themselves to groups could indicate an attempt to gain persistence on a compromised host or environment.",
+			"",
+			"> [Account Manipulation | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1098/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for user adding themselves to group"
+	},
+}

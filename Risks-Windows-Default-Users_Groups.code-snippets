@@ -1,5 +1,5 @@
 {
-	"Risk: Windows Group: Performance Monitor Users": {
+	"Windows Group (Built-in): Performance Monitor Users": {
 		"scope": "markdown",
 		"prefix": "risk-win-default_group-performance_monitor_users",
 		"body": [
@@ -11,7 +11,7 @@
 		],
 		"description": ""
 	},
-	"Risk: Windows Group: IIS_WPG": {
+	"Windows Group: IIS_WPG": {
 		"scope": "markdown",
 		"prefix": "risk-win-default_group-iis_wpg",
 		"body": [
@@ -27,7 +27,7 @@
 		],
 		"description": ""
 	},
-	"Risk: Windows Group: Remote Desktop Users": {
+	"Windows Group (Built-in): Remote Desktop Users": {
 		"scope": "markdown",
 		"prefix": "risk-win-default_group-remote_desktop_users",
 		"body": [
@@ -43,7 +43,7 @@
 		],
 		"description": ""
 	},
-	"Risk: Windows Group: Administrators": {
+	"Windows Group (Built-in): Administrators": {
 		"scope": "markdown",
 		"prefix": "risk-win-default_group-admins",
 		"body": [
@@ -55,6 +55,6 @@
 			"",
       "$0"
 		],
-		"description": "Explanation of risk for user(s) being added to local group"
+		"description": ""
 	},
 }

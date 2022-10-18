@@ -1,7 +1,7 @@
 {
 	"Link to ZTAP alert": {
 		"scope": "markdown",
-		"prefix": "link-ZtapAlert",
+		"prefix": "oneliner-ztapalert",
 		"body": [
       "[#${1:alert_num}](https://portal.threatanalytics.io/#/incidents/${1:alert_num}/)"
 		],
@@ -9,7 +9,7 @@
 	},
 	"Link to ZTAP feed": {
 		"scope": "markdown",
-		"prefix": "link-ZtapFeed",
+		"prefix": "oneliner-ztapfeed",
 		"body": [
       "[#${1:feed_num}](https://portal.threatanalytics.io/#/feeds/${1:feed_num}/)"
 		],
@@ -17,7 +17,7 @@
 	},
 	"Link to ZTAP filter": {
 		"scope": "markdown",
-		"prefix": "link-ZtapFilter",
+		"prefix": "oneliner-ztapfilter",
 		"body": [
       "[#${1:filter_num}](https://portal.threatanalytics.io/#/filters/${1:filter_num}/)"
 		],
@@ -25,7 +25,7 @@
 	},
 	"RFC1918": {
 		"scope": "markdown",
-		"prefix": "rfc1918",
+		"prefix": "oneliner-rfc1918",
 		"body": [
       "(*[RFC1918](https://datatracker.ietf.org/doc/html/rfc1918) private address*)"
 		],

@@ -13,11 +13,11 @@
 	},
 	"Risk: Masquarading: Fake login page": {
 		"scope": "markdown",
-		"prefix": "risk-masquarade-url-phishing",
+		"prefix": "risk-masquarade-phishing-url",
 		"body": [
 			"Adversaries use phishing messages to gain access to victim systems. Malicious websites designed specifically to impersonate legitimate authentication systems, such as Microsoft or Google, disguise themselves to trick users into submitting their credentials.",
 			"",
-			"Successfully obtaining legitimate credentials can provide an attacker with persistence, or potentially grant them access to confidential company information or critical resources that the the compromised user has access to.",
+			"Successfully obtaining legitimate credentials can provide an attacker with persistence, or potentially grant them access to confidential company information or critical resources that the compromised user has access to.",
 			"",
       "$0"
 		],

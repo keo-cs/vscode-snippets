@@ -1,7 +1,7 @@
 {
 	"Priority assessment": {
 		"scope": "markdown",
-		"prefix": "priority",
+		"prefix": "x-priority",
 		"body": [
 			"### $1 Priority",
 			"",
@@ -13,7 +13,7 @@
 	},
 "Observation": {
 		"scope": "markdown",
-		"prefix": "observe",
+		"prefix": "x-observe",
 		"body": [
 			"#### What was Observed",
 			"",
@@ -27,7 +27,7 @@
 	},
 	"Risk": {
 		"scope": "markdown",
-		"prefix": "risk",
+		"prefix": "x-risk",
 		"body": [
 			"#### What is the Risk",
 			"",
@@ -41,7 +41,7 @@
 	},
 	"Recommendation": {
 		"scope": "markdown",
-		"prefix": "recommend",
+		"prefix": "x-recommend",
 		"body": [
 			"#### What is Recommended",
 			"",
@@ -55,7 +55,7 @@
 	},
 	"Action taken": {
 		"scope": "markdown",
-		"prefix": "action",
+		"prefix": "x-action",
 		"body": [
 			"#### Action Taken",
 			"",

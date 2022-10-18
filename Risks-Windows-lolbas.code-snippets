@@ -1,5 +1,5 @@
 {
-	"Risk: Windows: LOLBAS: `WmiPrvSe.exe`": {
+	"WmiPrvSe.exe": {
 		"scope": "markdown",
 		"prefix": "risk-win-lolbas-wmiprvse-exe",
 		"body": [
@@ -13,7 +13,7 @@
 	},
   "Sysinternals": {
     "scope": "markdown",
-    "prefix": "risk-win-sysinternals",
+    "prefix": "risk-win-lolbas-sysinternals",
     "body": [
       "[*${1:tool_name}*](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) is a component of Microsoft [*Sysinternals*](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), a collection of Windows troubleshooting utilities. While these tools are distributed by Microsoft for diagnostic use, the dual-use functionality is often leveraged by attackers.",
       "",
@@ -23,7 +23,7 @@
   },
   "PsExec": {
     "scope": "markdown",
-    "prefix": "risk-psexec",
+    "prefix": "risk-win-lolbas-psexec",
     "body": [
       "`PsExec` can be used to remotely access hosts and execute arbitrary commands. Its portability and functionality have contributed it to becoming a popular tool for administrators and adversaries alike.",
       "",
@@ -32,5 +32,31 @@
       "$0"
     ],
     "description": ""
-  }
+  },
+	"certutil.exe": {
+		"scope": "markdown",
+		"prefix": "risk-win-lolbas-certutil",
+		"body": [
+			"`certutil.exe` is a built-in Windows executable used to interact with certificates and *Certificate Services*. Its primary functionality includes the capability to enumerate and modify sensitive information regarding the *chain of trust*, and is most commonly used to add or remove trusted certificates.",
+			"",
+			"> [`certutil` | *MITRE ATT&CK*](https://attack.mitre.org/software/S0160/)",
+      "",
+      "> [Subvert Trust Controls | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1553/)",
+			"",
+      "$0"
+		],
+		"description": ""
+	},
+	"schtasks.exe": {
+		"scope": "markdown",
+		"prefix": "risk-win-lolbas-schtasks-scheduled_tasks",
+		"body": [
+			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code. Nearly all operating systems include task scheduling functionality in some regard; in Windows environments it is the Task Scheduler, or `schtasks.exe`.",
+			"",
+			"> [Schedule Task/Job | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/005/)",
+			"",
+      "$0"
+		],
+		"description": "Explanation of risk for scheduled tasks (Windows)"
+	}
 }
