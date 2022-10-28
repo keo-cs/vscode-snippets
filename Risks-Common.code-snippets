@@ -111,5 +111,18 @@
       "",
       "$0"
     ]
+  },
+  "Bruteforce Attack": {
+    "scope": "markdown",
+    "prefix": "risk-common-bruteforce",
+    "body": [
+      "Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained.",
+      "",
+      "* This activity could indicate a threat actor attempting to login to a high risk or protected account and could potentially compromise high priority credentials.",
+      "",
+      "> [Brute Force | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1110/)",
+      "",
+      "$0"
+    ]
   }
 }

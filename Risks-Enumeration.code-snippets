@@ -1,0 +1,33 @@
+{
+	"Enumeration - Generic": {
+		"scope": "markdown",
+		"prefix": "risk-enum-generic",
+		"body": [
+      "Enumeration is a tactic employed by adversaries with the goal of discovering vulnerabilities and follow-on attack vectors.",
+      "",
+      "$0"
+		],
+	},
+	"Enumeration - System Information": {
+		"scope": "markdown",
+		"prefix": "risk-enum-system_info",
+		"body": [
+      "Enumeration of system information and configuration is a tactic employed by adversaries with the goal of discovering vulnerabilities and follow-on attack vectors.",
+      "",
+      "> [System Information Discovery | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1082/)",
+      "",
+      "$0"
+		],
+	},
+	"Enumeration - Host-Domain Trust": {
+		"scope": "markdown",
+		"prefix": "risk-enum-domain_trust",
+		"body": [
+      "Enumeration of domain trust details is a tactic employed by adversaries with the goal of discovering vulnerabilities and follow-on attack vectors.",
+      "",
+      "> [Domain Trust Discovery | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1482/)",
+      "",
+      "$0"
+		],
+	},
+}

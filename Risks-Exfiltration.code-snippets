@@ -1,0 +1,12 @@
+{
+	"Exfiltration over USB/Removable Media": {
+		"scope": "markdown",
+		"prefix": "risk-exfil-usb-removable_media",
+		"body": [
+      "Insider threats often use physical media (e.g., USB drives) to quickly move company data onto portable storage, bypassing inspection to exfiltrate confidential information.",
+      "",
+      "> [Exfiltration Over USB | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1052/001/)",
+      "",
+		],
+	},
+}
