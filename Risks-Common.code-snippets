@@ -124,5 +124,16 @@
       "",
       "$0"
     ]
-  }
+  },
+  "DLL Search Order Hijacking": {
+    "scope": "markdown",
+    "prefix": "risk-common-dll_hijack",
+    "body": [
+      "*DLL search order hijacking* refers to attackers manipulating the expected order of DLLs utilized by certain programs. By replacing genuine DLLs with malicious DLLs, the system will execute the malicious payload when it searches for the usual benign DLL.",
+      "",
+      "> [Hijack Execution Flow: DLL Search Order Hijacking | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1574/001/)",
+      "",
+      "$0"
+    ]
+  },
 }
