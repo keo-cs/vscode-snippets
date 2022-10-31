@@ -3,9 +3,9 @@
     "scope": "markdown",
     "prefix": "risk-software-cobalt_strike",
     "body": [
-      "PowerShell running in *hidden* mode conceals all windows and prompts from the user, potentially allowing an attacker to carry out malicious activity in \"plain sight\". While this feature can be leveraged by adversaries, it is also commonly utilized by systems administrators to avoid disrupting user work environments.",
+      "*Cobalt Strike* is a remote access tool with vast post-exploit functionality. It is marketed towards Red and Blue team operators, but is leveraged by malicious actors as well.",
       "",
-      "> [Hide Artifacts: Hidden Window | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1564/003/)",
+      "> [Cobalt Strike | *MITRE ATT&CK*](https://attack.mitre.org/software/S0154/)",
       "",
       "$0"
     ]
