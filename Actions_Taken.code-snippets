@@ -23,4 +23,19 @@
 		],
 		"description": "Created a block indicator (Microsoft Defender for Endpoint)"
 	},
+	"New SOP - Created Filter": {
+		"scope": "markdown",
+		"prefix": "action-filter",
+		"body": [
+			"#### Action Taken",
+			"",
+			"[Filter $1](https://portal.threatanalytics.io/#/filters/$1) has been created to suppress alerts for this behavior:",
+			"",
+			"* $2",
+			"",
+			"* * *",
+			"",
+      "$0",
+		],
+	},
 }

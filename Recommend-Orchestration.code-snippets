@@ -1,7 +1,7 @@
 {
 	"Recommendation: Orchestrate: Approved administrator activity": {
 		"scope": "markdown",
-		"prefix": "recommend-orchestrate-admin_user",
+		"prefix": "rec-orchestr8-admin_user",
 		"body": [
 			"If this behavior is `authorized`, please advise if you would like to suppress future alerts for this activity by user `{{ Username }}`:",
 			"",
@@ -10,11 +10,10 @@
 			"",
       "$0",
 		],
-		"description": "Suggest creating orchestration for administrator actions"
 	},
 	"Recommendation: Orchestrate: Legitimate software": {
 		"scope": "markdown",
-		"prefix": "recommend-orchestrate-legit_software",
+		"prefix": "rec-orchestr8-legit_software",
 		"body": [
 			"Please advise if the use of *${1:software_name}* is `authorized` in your organization:",
 			"",
@@ -23,6 +22,18 @@
 			"",
       "$0",
 		],
-		"description": "Suggest creating orchestration for specific software"
+	},
+	"Recommendation: Orchestrate: New SOP - Created Filter": {
+		"scope": "markdown",
+		"prefix": "rec-orchestr8-undo_new_filter",
+		"body": [
+			"Please advise if the creation of [filter $1](https://portal.threatanalytics.io/#/filters/$1) is not the desired outcome; the filter will be de-activated immediately.",
+			"",
+			"* Alternatively, an auto-route *playbook* can be created to preserve visibility.",
+			"",
+			"If this activity is `unauthorized`, the applications should be removed immediately, and their origin on the host `$2` should be investigated.",
+			"",
+      "$0",
+		],
 	},
 }
