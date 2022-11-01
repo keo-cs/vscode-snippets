@@ -1,11 +1,22 @@
 {
   "Cobalt Strike": {
     "scope": "markdown",
-    "prefix": "risk-software-cobalt_strike",
+    "prefix": "risk-cobalt_strike",
     "body": [
       "*Cobalt Strike* is a remote access tool with vast post-exploit functionality. It is marketed towards Red and Blue team operators, but is leveraged by malicious actors as well.",
       "",
       "> [Cobalt Strike | *MITRE ATT&CK*](https://attack.mitre.org/software/S0154/)",
+      "",
+      "$0"
+    ]
+  },
+  "Mimikatz: DCSync": {
+    "scope": "markdown",
+    "prefix": "risk-mikatz-dcsync",
+    "body": [
+      "*DCSync* is a component of *Mimikatz* that exploits Active Directory replication to enumerate domain information and obtain account credentials. Attackers leverage Active Directory's replication functionality to collect data stored by domain controllers, which can include password hashes.",
+      "",
+      "> [OS Credential Dumping: DCSync | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1003/006/)",
       "",
       "$0"
     ]
