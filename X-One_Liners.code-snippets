@@ -1,27 +1,27 @@
 {
-	"Link to ZTAP alert": {
+	"Link to alert": {
 		"scope": "markdown",
-		"prefix": "oneliner-ztapalert",
+		"prefix": "oneliner-alert",
 		"body": [
       "[#${1:alert_num}](https://portal.threatanalytics.io/#/incidents/${1:alert_num}/)"
 		],
-		"description": "Insert hyperlink to ZTAP alert",
+		"description": "Insert hyperlink to alert",
 	},
-	"Link to ZTAP feed": {
+	"Link to feed": {
 		"scope": "markdown",
-		"prefix": "oneliner-ztapfeed",
+		"prefix": "oneliner-feed",
 		"body": [
       "[#${1:feed_num}](https://portal.threatanalytics.io/#/feeds/${1:feed_num}/)"
 		],
-		"description": "Insert hyperlink to ZTAP feed",
+		"description": "Insert hyperlink to feed",
 	},
-	"Link to ZTAP filter": {
+	"Link to filter": {
 		"scope": "markdown",
-		"prefix": "oneliner-ztapfilter",
+		"prefix": "oneliner-filter",
 		"body": [
       "[#${1:filter_num}](https://portal.threatanalytics.io/#/filters/${1:filter_num}/)"
 		],
-		"description": "Insert hyperlink to ZTAP filter",
+		"description": "Insert hyperlink to filter",
 	},
 	"RFC1918": {
 		"scope": "markdown",
