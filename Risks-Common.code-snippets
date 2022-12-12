@@ -11,7 +11,11 @@
 		"scope": "markdown",
 		"prefix": "risk-common-scheduled_tasks",
 		"body": [
-			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code.",
+			"Adversaries often use the operating system's built-in task scheduling functionality to establish persistence or facilitate recurring execution of malicious code. The inclusion of this functionality in most major operating systems has led to it becoming one of the most cfommon methods of malicious persistence.",
+			"",
+			"> [A Deep Dive Into Windows Scheduled Tasks](https://nasbench.medium.com/a-deep-dive-into-windows-scheduled-tasks-and-the-processes-running-them-218d1eed4cce)",
+			"",
+			"<!-- -->",
 			"",
 			"> [Schedule Task/Job | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1053/)",
 			"",
