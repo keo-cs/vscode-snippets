@@ -1,34 +1,52 @@
 {
 	"Link to alert": {
 		"scope": "markdown",
-		"prefix": "oneliner-alert",
-		"body": [
-      "[#${1:alert_num}](https://portal.threatanalytics.io/#/incidents/${1:alert_num}/)"
-		],
-		"description": "Insert hyperlink to alert",
+		"prefix": "href-alert",
+		"body": [ "[alert ${1:alert_num}](https://portal.threatanalytics.io/#/incidents/${1:alert_num}/)" ],
 	},
 	"Link to feed": {
 		"scope": "markdown",
-		"prefix": "oneliner-feed",
-		"body": [
-      "[#${1:feed_num}](https://portal.threatanalytics.io/#/feeds/${1:feed_num}/)"
-		],
-		"description": "Insert hyperlink to feed",
+		"prefix": "href-feed",
+		"body": [ "[feed ${1:feed_num}](https://portal.threatanalytics.io/#/feeds/${1:feed_num}/)" ],
 	},
 	"Link to filter": {
 		"scope": "markdown",
-		"prefix": "oneliner-filter",
-		"body": [
-      "[#${1:filter_num}](https://portal.threatanalytics.io/#/filters/${1:filter_num}/)"
-		],
-		"description": "Insert hyperlink to filter",
+		"prefix": "href-filter",
+		"body": [ "[filter ${1:filter_num}](https://portal.threatanalytics.io/#/filters/${1:filter_num}/)" ],
 	},
 	"RFC1918": {
 		"scope": "markdown",
-		"prefix": "oneliner-rfc1918",
-		"body": [
-      "(*[RFC1918](https://datatracker.ietf.org/doc/html/rfc1918) private address*)"
-		],
-		"description": "RFC1918: Address Allocation for Private Internets",
+		"prefix": "href-rfc1918",
+		"body": [ "[RFC1918](https://datatracker.ietf.org/doc/html/rfc1918) private address" ],
+	},
+	"Link: Virus Total": {
+		"scope": "markdown",
+		"prefix": "href-vt",
+		"body": [ "[VT](https://www.virustotal.com/gui/search/$1)$0" ],
+	},
+	"Link: OTX IP": {
+		"scope": "markdown",
+		"prefix": "href-otxip",
+		"body": [ "[OTX](https://otx.alienvault.com/indicator/ip/$1)$0" ],
+	},
+	"Link: OTX Domain": {
+		"scope": "markdown",
+		"prefix": "href-otxdomain",
+		"body": [ "[OTX](https://otx.alienvault.com/indicator/domain/$1)$0" ],
+	},
+	"Link: OTX Hash": {
+		"scope": "markdown",
+		"prefix": "href-otxhash",
+		"body": [ "[OTX](https://otx.alienvault.com/indicator/file/$1)$0" ],
+	},
+	"Link: AbuseIPDB": {
+		"scope": "markdown",
+		"prefix": "href-abuseipdb",
+		"body": [ "[AbuseIPDB](https://www.abuseipdb.com/check/$1)$0" ],
+	},
+	"Highlight Analyst Note": {
+		"scope": "markdown",
+		"prefix": "analystnote",
+		"body": [ "> **`NOTE`**: $0" ],
 	},
 }
