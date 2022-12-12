@@ -1,0 +1,19 @@
+{
+	"Recommendation: HAFNIUM": {
+		"scope": "markdown",
+		"prefix": "rec-hafnium",
+		"body": [
+      "The server `{{ Hostname }}` should be investigated to ensure no exploitation was attempted.",
+      "",
+      "* Although the queries to detect exploitation activity return no results, the errors should be investigated.",
+      "",
+      "Please advise if the server `CS-Exchange` is patched for this vulnerability.",
+      "",
+      "* Microsoft has released a `one-click mitigation tool` to protect against this activity.",
+      "  * [*One-Click Microsoft Exchange On-Premises Mitigation Tool – March 2021*](https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/)",
+      "* If the server `{{ Hostname }}` is `fully patched`, a filter will be created to suppress alerts for *patched* vulnerabilities.",
+			"",
+      "$0",
+		],
+	},
+}
