@@ -109,7 +109,7 @@
     "scope": "markdown",
     "prefix": "risk-common-hidden_powershell",
     "body": [
-      "PowerShell running in *hidden* mode conceals all windows and prompts from the user, potentially allowing an attacker to carry out malicious activity in \"plain sight\". While this feature can be leveraged by adversaries, it is also commonly utilized by systems administrators to avoid disrupting user work environments.",
+      "PowerShell running in *hidden* mode conceals all windows and prompts from the user, potentially allowing an attacker to carry out malicious activity in \"plain sight\". While this feature can be leveraged by attackers, it is also commonly utilized by systems administrators to avoid disrupting user work environments.",
       "",
       "> [Hide Artifacts: Hidden Window | *MITRE ATT&CK*](https://attack.mitre.org/techniques/T1564/003/)",
       "",
