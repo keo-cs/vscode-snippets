@@ -1,12 +1,12 @@
 {
 	"Recommendation: Orchestrate: Approved administrator activity": {
 		"scope": "markdown",
-		"prefix": "rec-orchestr8-admin_user",
+		"prefix": "rec-orchestr8-authorized_user",
 		"body": [
 			"If this behavior is `authorized`, please advise if you would like to suppress future alerts for this activity by user `{{ Username }}`:",
 			"",
-			"* An orchestration *filter* can be created to prevent false-positive alerting for authorized behavior.",
-			"* Alternatively, an auto-route *playbook* can be created to preserve visibility.",
+			"* An orchestration *filter* will be created to capture and suppress alerts for legitimate activity performed by authorized users.",
+			"* If preserving visibility is a priority, an auto-route *playbook* can be created instead.",
 			"",
       "$0",
 		],
@@ -17,19 +17,19 @@
 		"body": [
 			"Please advise if the use of *${1:software_name}* is `authorized` in your organization:",
 			"",
-			"* An orchestration *filter* can be created to suppress alert notifications for benign behaviors of genuine software.",
-			"* Alternatively, an auto-route *playbook* can be created to preserve visibility.",
+			"* An orchestration *filter* will be created to capture and suppress alerts for expected behaviors of authorized software.",
+			"* If preserving visibility is a priority, an auto-route *playbook* can be created instead.",
 			"",
       "$0",
 		],
 	},
 	"Recommendation: Orchestrate: New SOP - Created Filter": {
 		"scope": "markdown",
-		"prefix": "rec-orchestr8-undo_new_filter",
+		"prefix": "rec-orchestr8-undo_filter",
 		"body": [
 			"Please advise if the creation of [filter $1](https://portal.threatanalytics.io/#/filters/$1) is not the desired outcome; the filter will be de-activated immediately.",
 			"",
-			"* Alternatively, an auto-route *playbook* can be created to preserve visibility.",
+			"* If preserving visibility is a priority, an auto-route *playbook* can be created instead.",
 			"",
 			"If this activity is `unauthorized`, the applications should be removed immediately, and their origin on the host `$2` should be investigated.",
 			"",
