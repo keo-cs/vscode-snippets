@@ -1,7 +1,7 @@
 {
 	"Recommendation: Best Practices - Phishing": {
 		"scope": "markdown",
-		"prefix": "rec-bestpractice-phishing",
+		"prefix": "rec-best_practice-phishing",
 		"body": [
 			"It may be prudent for this user to refresh their [*cybersecurity best practices*](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams) in order to better identify potential phishing attempts.",
       "$0",
@@ -9,7 +9,7 @@
 	},
 	"Recommendation: Best Practices - Download Software": {
 		"scope": "markdown",
-		"prefix": "rec-bestpractice-downloads",
+		"prefix": "rec-best_practice-downloads",
 		"body": [
 			"It may be prudent for this user to refresh their [cybersecurity best practices](https://its.ucsc.edu/security/download.html) to reduce the risk of infection.",
       "$0",
@@ -17,7 +17,7 @@
 	},
 	"Recommendation: Best Practices - USB Drives": {
 		"scope": "markdown",
-		"prefix": "rec-bestpractice-usbdrives",
+		"prefix": "rec-best_practice-usb_drives",
 		"body": [
 			"It may be prudent for this user to refresh their [cybersecurity best practices](https://www.cisa.gov/uscert/ncas/tips/ST08-001) to reduce the risk of infection.",
       "$0",

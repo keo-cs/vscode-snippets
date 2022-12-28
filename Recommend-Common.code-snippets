@@ -1,7 +1,7 @@
 {
 	"Recommendation: Reset and revert account": {
 		"scope": "markdown",
-		"prefix": "rec-account-resetrevert",
+		"prefix": "rec-account-reset-revert",
 		"body": [
 			"If this behavior is `unauthorized` or `unexpected`, the changes should be reverted as soon as possible, and the initiating user account should be immediately locked and investigated for additional unauthorized activity.",
 			"",
